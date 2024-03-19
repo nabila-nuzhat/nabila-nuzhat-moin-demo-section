@@ -1,3 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --primary-font: "Roboto", sans-serif;
+    --navy-blue: #07074d;
+    --navy-blue-transparent: rgba(7, 7, 77, 0.5)
 }
+
+
+header{
+    position: sticky;
+    top: 0;
+    height: 82px;
+    background-color: var(--navy-blue-transparent);
+    z-index: 999;
+}
+
