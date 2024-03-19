@@ -7,15 +7,39 @@
 :root{
     --primary-font: "Roboto", sans-serif;
     --navy-blue: #07074d;
-    --navy-blue-transparent: rgba(7, 7, 77, 0.5)
+    --navy-blue-transparent: rgba(7, 7, 77, 0.5);
+    --navy-blue-darkest: #030330;
 }
 
+a{
+    text-decoration: none;
+}
 
+/* header style */
 header{
     position: sticky;
     top: 0;
     height: 82px;
     background-color: var(--navy-blue-transparent);
     z-index: 999;
+    padding: 0 20px;
+    margin-bottom: -82px;
 }
 
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* banner - style */
+.banner{
+    background-color: var(--navy-blue-darkest);
+    padding-top: 82px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
