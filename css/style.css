@@ -15,6 +15,10 @@ a{
     text-decoration: none;
 }
 
+body{
+    font-family: var(--primary-font);
+}
+
 /* header style */
 header{
     position: sticky;
