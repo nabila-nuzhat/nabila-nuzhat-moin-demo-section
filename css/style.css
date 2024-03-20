@@ -182,7 +182,7 @@ width: 100%;
     padding: 10px 50px;
     position: relative;
     width: 50%;
-    background: var(--navy-blue-transparent);
+    /* background: var(--navy-blue-transparent); */
 }
 
 .text-box{
@@ -190,7 +190,9 @@ width: 100%;
     position: relative;
     background-color: #fff;
     border-radius: 5px;
+    border: 1px solid #fff;
 }
+
 
 .left-container{
     left: 0;
@@ -230,6 +232,39 @@ width: 100%;
     z-index: 1;
 }
 
+.text-box h3{
+font-weight: 900;
+}
+
+.text-box small{
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.left-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fff;
+    right: -15px;
+
+}
+.right-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -15px;
+
+}
 
 
 
