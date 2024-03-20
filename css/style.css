@@ -64,6 +64,63 @@ header{
 width: 100%;
 }
 
+/* Education ---------------------------------*/
+/* .wpr-timeline-centered{
+     
+        position: relative;
+        display: table;
+        width: 100%;
+        height: 100%;
+    
+}
+
+.elementor-11 .elementor-element.elementor-element-42fb669 .wpr-wrapper .wpr-middle-line {
+    background-color: #FF2D7F;
+    width: 4px;
+    transform: translate(-50%) !important;
+}
+.wpr-both-sided-timeline .wpr-middle-line {
+    left: 50%;
+}
+.wpr-middle-line {
+    position: absolute;
+    display: block;
+    width: 4px;
+    top: 20px;
+    height: 100%;
+} */
+
+.card-title{
+    font-size: 25px;
+}
+.card-subtitle{
+    font-size: 15px;
+}
+
+.left-arrow{
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 1px solid #fff;
+    right: -14px;
+}
+.right-arrow{
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 1px solid #fff;
+    left: -14px;
+}
+
+/* Mega menu design-bootstrap snippet */
 .navbar .megamenu{ padding: 1rem; }
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
