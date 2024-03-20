@@ -49,8 +49,14 @@ header{
     padding: 80px 0;
 }
 .about .about-container{
-    height: 800px;
+    /* height: 800px; */
     width: 75%;
+}
+
+.about h2,
+.education h2{
+    font-weight: 900;
+    font-size: 40px;
 }
 .about-my-image{
     width: 350px;
@@ -67,112 +73,7 @@ width: 100%;
 }
 
 /* Education ---------------------------------*/
-/* .wpr-timeline-centered{
-     
-        position: relative;
-        display: table;
-        width: 100%;
-        height: 100%;
-    
-}
-
-.elementor-11 .elementor-element.elementor-element-42fb669 .wpr-wrapper .wpr-middle-line {
-    background-color: #FF2D7F;
-    width: 4px;
-    transform: translate(-50%) !important;
-}
-.wpr-both-sided-timeline .wpr-middle-line {
-    left: 50%;
-}
-.wpr-middle-line {
-    position: absolute;
-    display: block;
-    width: 4px;
-    top: 20px;
-    height: 100%;
-} */
-
-.card-title{
-    font-size: 25px;
-}
-.card-subtitle{
-    font-size: 15px;
-}
-/* , .card-flag-image */
-.card-icon-image{
-    width: 14%;
-    height: auto;
-    position: absolute; 
-    right: -77px;
-    top: 10px;
-    z-index: 10; 
-    color: #fff;
-}
-
-/* .card-flag-image{
-    position: absolute; 
-    right: -77px;
-    top: 10px;
-    z-index: 10; 
-} */
-
-/* .rightBox .card-flag-image {
-    left: -77px;
-} */
-.rightBox .card-icon-image {
-    left: -77px;
-}
-.education-line{
-    position: relative;
-}
-
-.white-line::after{
-    content: '';
-    position: absolute;
-    width: 3px;
-    height: 120%;
-    background-color: #fff;
-    top: 42px;
-    left: 50%;
-    /* margin-left: 9px; */
-    z-index: 1;
-}
-.left-arrow{
-    position: absolute;
-    height: 0;
-    width: 0;
-    top: 28px;
-    z-index: 1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 1px solid #fff;
-    right: -14px;
-}
-.right-arrow{
-    position: absolute;
-    height: 0;
-    width: 0;
-    top: 28px;
-    z-index: 1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 1px solid #fff;
-    left: -14px;
-}
-
-.leftBox{
-    left: -17%;
-}
-.rightBox{
-    left: 19%;
-}
-
-
-
-
-
-
-/* ----------------------------new TIMELINE SECOND */
+/* ----------------------------new TIMELINE SECOND trial */
 .timeline{
     position: relative;
     
