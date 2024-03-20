@@ -17,6 +17,7 @@ body{
 
 .common-bg{
     background-color: var(--navy-blue-darkest);
+    padding: 100px 0;
 }
 
 /* header style */
@@ -96,7 +97,45 @@ width: 100%;
 .card-subtitle{
     font-size: 15px;
 }
+/* , .card-flag-image */
+.card-icon-image{
+    width: 14%;
+    height: auto;
+    position: absolute; 
+    right: -77px;
+    top: 10px;
+    z-index: 10; 
+    color: #fff;
+}
 
+/* .card-flag-image{
+    position: absolute; 
+    right: -77px;
+    top: 10px;
+    z-index: 10; 
+} */
+
+/* .rightBox .card-flag-image {
+    left: -77px;
+} */
+.rightBox .card-icon-image {
+    left: -77px;
+}
+.education-line{
+    position: relative;
+}
+
+.white-line::after{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 120%;
+    background-color: #fff;
+    top: 42px;
+    left: 50%;
+    /* margin-left: 9px; */
+    z-index: 1;
+}
 .left-arrow{
     position: absolute;
     height: 0;
@@ -119,6 +158,87 @@ width: 100%;
     border-left: 1px solid #fff;
     left: -14px;
 }
+
+.leftBox{
+    left: -17%;
+}
+.rightBox{
+    left: 19%;
+}
+
+
+
+
+
+
+/* ----------------------------new TIMELINE SECOND */
+.timeline{
+    position: relative;
+    
+    margin: 100px auto;
+}
+
+.education-container{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    background: var(--navy-blue-transparent);
+}
+
+.text-box{
+    padding: 20px 30px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.left-container{
+    left: 0;
+}
+
+.right-container{
+    left: 50%;
+}
+
+.education-container img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    /* border-radius: 20px; */
+    
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+    background-color: #fff;
+    padding: 8px;
+    
+}
+
+.right-container img{
+    left: -20px;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Mega menu design-bootstrap snippet */
 .navbar .megamenu{ padding: 1rem; }
