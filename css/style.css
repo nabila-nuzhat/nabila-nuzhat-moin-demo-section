@@ -313,17 +313,55 @@ font-weight: 900;
     
 }
 
-.familiar{
+.familiar, .my-contactForm, .follow-social a{
     color: #fff;
 }
 
-.familiar li {
+.familiar li{
     font-size: 20px;
     margin: 20px 0;
 }
 
-.familiar ul li i{
+.familiar ul li i, .follow-social ul li a i{
     color: var(--crimson);
+}
+
+.follow-social li a, .follow-social li a i{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.contact .my-contactForm div{
+    width: 500px;
+	margin-top: 30px;
+}
+
+.contact .my-contactForm div form{
+    width: 100%;
+}
+
+.contact .my-contactForm div form input,
+.contact .my-contactForm div form textarea{
+    width: 100%;
+	display: block;
+	margin: 5px 0;
+}
+
+.contact .my-contactForm div form button{
+    background-color: var(--crimson);
+    color: var(--navy-blue-darkest);
+    font-weight: 700;
+}
+
+.contact .my-contactForm div form button:hover{
+    background-color: var(--pink);
+}
+
+
+
+footer h6{
+    color: var(--pink);
+    opacity: .5;
 }
 
 
